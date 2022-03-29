@@ -6,7 +6,7 @@ import org.bukkit.event.player.AsyncPlayerChatEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class ChatUwuify extends JavaPlugin implements Listener {
-    private UwUSource uwuSource = new UwUSource();
+    private final UwUSource uwuSource = new UwUSource();
 
     @Override
     public void onEnable() {
