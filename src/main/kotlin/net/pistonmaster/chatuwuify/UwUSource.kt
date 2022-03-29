@@ -3,6 +3,9 @@ package net.pistonmaster.chatuwuify
 import java.util.*
 import kotlin.random.Random
 
+/**
+ * Credits for this class go to https://github.com/chell-dev/uwu.kt
+ */
 class UwUSource {
     private var stutterChance = 65
     private var emojiChance = 90
