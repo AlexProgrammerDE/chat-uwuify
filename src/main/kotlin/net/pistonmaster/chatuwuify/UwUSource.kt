@@ -6,10 +6,7 @@ import kotlin.random.Random
 /**
  * Credits for this class go to https://github.com/chell-dev/uwu.kt
  */
-class UwUSource {
-    private var stutterChance = 50
-    private var emojiChance = 40
-
+class UwUSource(private val stutterChance: Int, private val emojiChance: Int) {
     fun uwuify(input: String): String {
         var output = input
 
