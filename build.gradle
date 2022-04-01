@@ -18,11 +18,19 @@ repositories {
         name = 'sonatype'
         url = 'https://oss.sonatype.org/content/groups/public/'
     }
+    maven {
+        name = 'codemc'
+        url = 'https://repo.codemc.org/repository/maven-public/'
+    }
 }
 
 dependencies {
     compileOnly 'com.destroystokyo.paper:paper-api:1.12.2-R0.1-SNAPSHOT'
+    compileOnly 'net.pistonmaster:PistonChat:1.5.3'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+
+    compileOnly 'org.projectlombok:lombok:1.18.10'
+    annotationProcessor 'org.projectlombok:lombok:1.18.10'
 }
 
 shadowJar {
