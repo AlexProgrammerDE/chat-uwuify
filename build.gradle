@@ -30,7 +30,7 @@ repositories {
 
 dependencies {
     compileOnly 'com.destroystokyo.paper:paper-api:1.12.2-R0.1-SNAPSHOT'
-    compileOnly 'net.pistonmaster:PistonChat:1.5.3'
+    compileOnly 'net.pistonmaster:PistonChat:1.6.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 
     compileOnly 'org.projectlombok:lombok:1.18.24'
