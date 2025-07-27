@@ -16,7 +16,7 @@ repositories {
     }
     maven {
         name = 'sonatype'
-        url = 'https://oss.sonatype.org/content/groups/public/'
+        url = 'https://central.sonatype.com/repository/maven-snapshots/'
     }
     maven {
         name = 'codemc'
