@@ -1,7 +1,7 @@
 plugins {
     id 'java'
     id 'idea'
-    id 'org.jetbrains.kotlin.jvm' version '1.6.10'
+    id 'org.jetbrains.kotlin.jvm' version '1.9.25'
     id 'com.github.johnrengelman.shadow' version '8.1.1'
 }
 
@@ -30,11 +30,11 @@ repositories {
 
 dependencies {
     compileOnly 'com.destroystokyo.paper:paper-api:1.12.2-R0.1-SNAPSHOT'
-    compileOnly 'net.pistonmaster:PistonChat:1.5.3'
+    compileOnly 'net.pistonmaster:PistonChat:1.6.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 
-    compileOnly 'org.projectlombok:lombok:1.18.24'
-    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+    compileOnly 'org.projectlombok:lombok:1.18.42'
+    annotationProcessor 'org.projectlombok:lombok:1.18.42'
 }
 
 shadowJar {
